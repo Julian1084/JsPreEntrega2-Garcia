@@ -32,7 +32,7 @@ if (edad >= 18) {
         productosFiltrados.forEach(producto =>
           producto.venta = Number(prompt("Ingrese la cantidad de " + producto.nombre + " " + producto.presentacion + "\nPrecio: $ " + producto.precio))
           )
-          carrito.push(productosFiltrados.filter(producto => producto.venta > 0))
+          carrito.concat(productosFiltrados.filter(producto => producto.venta > 0))
       
         break
       case "2":
@@ -40,7 +40,7 @@ if (edad >= 18) {
         productosFiltrados.forEach(producto =>
           producto.venta = Number(prompt("Ingrese la cantidad de " + producto.nombre + " " + producto.presentacion + "\nPrecio: $ " + producto.precio))
           )
-          carrito.push(productosFiltrados.filter(producto => producto.venta > 0))
+          carrito.concat(productosFiltrados.filter(producto => producto.venta > 0))
         break
       case "3":
         productosFiltrados = productos.filter(producto => producto.categoria.includes("Bebidas sin alcohol"))
@@ -48,7 +48,7 @@ if (edad >= 18) {
           producto.venta = Number(prompt("Ingrese la cantidad de " + producto.nombre + " " + producto.presentacion + "\nPrecio: $ " + producto.precio))
           )
           
-          carrito.push(productosFiltrados.filter(producto => producto.venta > 0))
+          carrito.concat(productosFiltrados.filter(producto => producto.venta > 0))
         
         break
       case "0":
