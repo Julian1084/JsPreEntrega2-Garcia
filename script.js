@@ -5,13 +5,13 @@ let productos = [
 {idProducto: 2, nombre: "Picada para 6", presentacion: "en bandeja", precio: 5000, categoria: "Picadas"},
 {idProducto: 3, nombre: "Picada para 10", presentacion: "en bandeja", precio: 7000, categoria: "Picadas"},
 {idProducto: 4, nombre: "Picada para 15", presentacion: "en bandeja", precio: 12000, categoria: "Picadas"},
-{idProducto: 5, nombre: "Cerveza Lata Quilmes", presentacion: "Pack de 6 Lata", precio: 861, categoria: "Cerveza"},
-{idProducto: 6, nombre: "Cerveza Lata Antares", presentacion: "Pack de 6 Lata", precio: 861, categoria: "Cerveza"},
-{idProducto: 7, nombre: "Cerveza Lata Patagonia",  presentacion: "Pack de 6 Lata", precio: 861, categoria: "Cerveza"},
-{idProducto: 8, nombre: "Cerveza Lata Andes", presentacion: "Pack de 6 Lata", precio: 861, categoria: "Cerveza"},
-{idProducto: 9, nombre: "Coca-Cola", precio: 861, presentacion: "Pack de 6 Lata", categoria: "Bebidas sin alcohol"},
-{idProducto: 10, nombre: "Aquarius Naranja", presentacion: "Pack de 6 Botella 500cc", precio: 861, categoria: "Bebidas sin alcohol"},
-{idProducto: 11, nombre: "Aquiarius Manzana", precio: 861, presentacion: "Pack de 6 Botella 500cc", categoria: "Bebidas sin alcohol"}
+{idProducto: 5, nombre: "Cerveza Lata Quilmes", presentacion: "Pack de 6 Lata", precio: 1280, categoria: "Cerveza"},
+{idProducto: 6, nombre: "Cerveza Lata Antares Playa Grande", presentacion: "Pack de 6 Lata", precio: 2663, categoria: "Cerveza"},
+{idProducto: 7, nombre: "Cerveza Lata Patagonia Weiss",  presentacion: "Pack de 6 Lata", precio: 1716, categoria: "Cerveza"},
+{idProducto: 8, nombre: "Cerveza Lata Andes IPA", presentacion: "Pack de 6 Lata", precio: 1266, categoria: "Cerveza"},
+{idProducto: 9, nombre: "Coca-Cola", precio: 1500, presentacion: "Pack de 6 Lata", categoria: "Bebidas sin alcohol"},
+{idProducto: 10, nombre: "Aquarius Naranja", presentacion: "Pack de 6 Botella 500cc", precio: 1140, categoria: "Bebidas sin alcohol"},
+{idProducto: 11, nombre: "Aquiarius Manzana", presentacion: "Pack de 6 Botella 500cc", precio: 1140, categoria: "Bebidas sin alcohol"}
 ]
 let opcionCompra = ""
 let productosFiltrados = []
