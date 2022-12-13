@@ -63,13 +63,14 @@ if (edad >= 18) {
   } while (opcionCompra != 0)
     let cantidadTotalComprada = carrito.reduce((acumulador, producto) => acumulador + producto.venta, 0)
     let productosYpresentacion= carrito.forEach(producto =>{salida = salida + producto.venta + " unidades de " + producto.nombre + " " + producto.presentacion + " de la categoria " + producto.categoria +"\n"})
-    alert(salida)
     if (cantidadTotalComprada < 3 && cantidadTotalComprada > 0) {
-        let sumatoria = carrito.forEach(producto =>{subtotal = subtotal + (producto.venta * producto.precio)})
+      alert(salida)  
+      let sumatoria = carrito.forEach(producto =>{subtotal = subtotal + (producto.venta * producto.precio)})
                 totalAPagar = subtotal 
         alert("Usted ha comprado " + carrito.reduce((acumulador, producto) => acumulador + producto.venta, 0) + " unidades. \nNo posee descuento\nTotal a pagar: $ "+totalAPagar)
       }  
     if (cantidadTotalComprada >= 3) {
+      alert(salida)  
         sumatoria = carrito.forEach(producto =>{subtotal = subtotal + (producto.venta * producto.precio)})
         totalAPagar = subtotal + Number(descuento(subtotal).toFixed(2))
         alert("Usted ha comprado " + carrito.reduce((acumulador, producto) => acumulador + producto.venta, 0) + " unidades. \nHa sido beneficiado por un descuento de $ " + descuento(subtotal).toFixed(2) + "\nTotal a pagar: $ " + totalAPagar)
