@@ -16,7 +16,7 @@ let productos = [
 let opcionCompra = ""
 let productosFiltrados = []
 let carrito = []
-let salida =["Usted ha comprado:\n"]
+let salida =[]
 let subtotal = 0
 let totalAPagar = 0
 
